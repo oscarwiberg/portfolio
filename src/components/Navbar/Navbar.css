@@ -6,10 +6,11 @@
 
 #nav-links {
   position: absolute;
-  right: 10%;
+  right: 4%;
 }
 
 #nav-link {
   margin-right: 5%;
   color: white;
+  margin-right: 20%;
 }
