@@ -1,0 +1,14 @@
+#nav-logo {
+  font-family: 'Verdana';
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#nav-links {
+  position: absolute;
+  right: 10%;
+}
+
+#nav-link {
+  margin-right: 5%;
+}
