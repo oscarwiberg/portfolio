@@ -12,4 +12,9 @@
 #nav-link {
   margin-right: 5%;
   color: white;
+  font-variant: small-caps;
+}
+
+#nav-link:hover {
+  transform: scale(1.2);
 }

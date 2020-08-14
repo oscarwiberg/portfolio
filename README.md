@@ -1,3 +1,3 @@
 ## Portfolio
 
-A portfolio made vid React and Bootstrap
+A portfolio made in React with Bootstrap and custom css
