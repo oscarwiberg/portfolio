@@ -12,13 +12,13 @@ const NavbarComponent = () => {
         </Navbar.Brand>
         <Nav id="nav-links" className="mr-auto">
           <Nav.Link id="nav-link" as={Link} to="/">
-            Home
+            HOME
           </Nav.Link>
           <Nav.Link id="nav-link" as={Link} to="/about">
-            About
+            ABOUT
           </Nav.Link>
           <Nav.Link id="nav-link" as={Link} to="/projects">
-            Projects
+            PROJECTS
           </Nav.Link>
         </Nav>
         {/* <Nav id="nav-links">

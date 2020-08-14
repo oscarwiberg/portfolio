@@ -6,8 +6,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import NavbarComponent from './components/Navbar/Navbar';
 import About from './components/pages/About';
 import Projects from './components/pages/Projects';
-import NotFound from './components/pages/NotFound';
-import Jumbo from './components/Jumbo';
+
+import Jumbo from './components/pages/Jumbo';
 
 function App() {
   return (
@@ -19,7 +19,6 @@ function App() {
           <Switch>
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects} />
-            <Route component={NotFound} />
           </Switch>
         </Container>
       </Router>
