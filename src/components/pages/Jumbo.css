@@ -10,7 +10,7 @@
   z-index: 1;
   text-align: center;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -24,4 +24,52 @@ h1 {
 p {
   font-size: 0.8rem;
   font-weight: bold;
+}
+
+button {
+  color: black;
+  font-weight: bold;
+  width: 40%;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: rgba(255, 203, 59, 0.815);
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.4s ease 0s;
+  margin-top: 15%;
+}
+
+button:hover {
+  background: rgb(255, 203, 59);
+  color: black;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.4s ease 0s;
+}
+
+#cta {
+  color: black;
+  font-weight: bold;
+  width: 40%;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: rgba(255, 203, 59, 0.815);
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.4s ease 0s;
+  margin-top: 15%;
+}
+
+#cta:hover {
+  background: rgb(255, 203, 59);
+  color: black;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.4s ease 0s;
+}
+
+#modal {
+  width: 100%;
 }
