@@ -10,7 +10,18 @@ const NavbarComponent = () => {
         <Navbar.Brand href="/" id="nav-logo">
           OSCAR WIBERG.
         </Navbar.Brand>
-        <Nav id="nav-links">
+        <Nav id="nav-links" className="mr-auto">
+          <Nav.Link id="nav-link" as={Link} to="/">
+            Home
+          </Nav.Link>
+          <Nav.Link id="nav-link" as={Link} to="/about">
+            About
+          </Nav.Link>
+          <Nav.Link id="nav-link" as={Link} to="/projects">
+            Projects
+          </Nav.Link>
+        </Nav>
+        {/* <Nav id="nav-links">
           <Link id="nav-link" to="/">
             Home
           </Link>
@@ -22,7 +33,7 @@ const NavbarComponent = () => {
           <Link id="nav-link" to="/projects">
             Projects
           </Link>
-        </Nav>
+        </Nav> */}
       </Navbar>
     </div>
   );
