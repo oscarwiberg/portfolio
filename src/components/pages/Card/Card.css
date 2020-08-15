@@ -1,0 +1,13 @@
+#read-btn {
+  font-size: 0.8rem;
+}
+
+#card-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#card {
+  margin-top: 3%;
+}
