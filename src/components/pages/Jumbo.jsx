@@ -3,7 +3,7 @@ import './Jumbo.css';
 import { Modal, Button } from 'react-bootstrap';
 
 const Jumbo = () => {
-  const Example = () => {
+  const ModalComponent = () => {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -16,9 +16,7 @@ const Jumbo = () => {
         </Button>
 
         <Modal size="lg" show={show} onHide={handleClose}>
-          <Modal.Header id="modal-header" closeButton>
-            <Modal.Title>Resume</Modal.Title>
-          </Modal.Header>
+          <Modal.Header id="modal-header" closeButton></Modal.Header>
           <Modal.Body>
             <img className="img-cv" src="/images/cv.jpg" alt="cv"></img>
           </Modal.Body>
@@ -40,8 +38,7 @@ const Jumbo = () => {
           I'M A JUNIOR DEVELOPER FROM STOCKHOLM. TAKE A LOOK AT MY RESUME AND MY
           EARLIER PROJECTS.
         </p>
-        <Example />
-        {/* <button>MY RESUME</button> */}
+        <ModalComponent />
       </div>
       <img className="img-ny" src="/images/ny.jpg" alt="new-york"></img>
     </div>
