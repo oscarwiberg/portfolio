@@ -8,6 +8,7 @@ import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 
 import Jumbo from './components/pages/Jumbo';
+import './App.css';
 
 function App() {
   return (

@@ -15,15 +15,15 @@ const Jumbo = () => {
           MY RESUME
         </Button>
 
-        <Modal show={show} onHide={handleClose}>
-          <Modal.Header closeButton>
+        <Modal size="lg" show={show} onHide={handleClose}>
+          <Modal.Header id="modal-header" closeButton>
             <Modal.Title>Resume</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <img className="img-cv" src="/images/cv.jpg" alt="cv"></img>
           </Modal.Body>
           <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose}>
+            <Button id="modal-header" variant="secondary" onClick={handleClose}>
               Close
             </Button>
           </Modal.Footer>

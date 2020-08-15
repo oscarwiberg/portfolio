@@ -6,7 +6,7 @@ import './Navbar.css';
 const NavbarComponent = () => {
   return (
     <div>
-      <Navbar bg="dark" variant="dark">
+      <Navbar id="nav-container" bg="dark" variant="dark">
         <Navbar.Brand href="/" id="nav-logo">
           OSCAR WIBERG
         </Navbar.Brand>

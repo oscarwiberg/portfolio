@@ -70,6 +70,16 @@ button:hover {
   transition: all 0.4s ease 0s;
 }
 
-#modal {
+#modal-header {
+  background-color: #343a40;
+  color: white;
+}
+
+span {
+  color: white;
+}
+
+.img-cv {
   width: 100%;
+  height: auto;
 }

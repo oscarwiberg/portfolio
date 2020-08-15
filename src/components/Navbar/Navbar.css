@@ -19,3 +19,7 @@
 #nav-link:hover {
   transform: scale(1.2);
 }
+
+#nav-container {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.418);
+}
