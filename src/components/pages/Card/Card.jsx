@@ -49,7 +49,7 @@ const CardComponent = (props) => {
         <Card.Body>
           <Card.Title>{card.title}</Card.Title>
           <Card.Text>{card.text}</Card.Text>
-          <Button id="read-btn" variant="primary">
+          <Button id="read-btn" variant="primary" href="">
             To GitHub
           </Button>
         </Card.Body>
