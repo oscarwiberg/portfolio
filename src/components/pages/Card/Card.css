@@ -1,5 +1,12 @@
 #read-btn {
   font-size: 0.8rem;
+  background-color: rgba(255, 203, 59, 0.815);
+  color: black;
+  border: none;
+}
+
+#read-btn:hover {
+  background-color: rgb(255, 203, 59);
 }
 
 #card-flex {
