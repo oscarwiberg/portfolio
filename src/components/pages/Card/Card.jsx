@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Button } from 'react-bootstrap';
 import './Card.css';
 
-const CardComponent = (props) => {
+const CardComponent = () => {
   const cardInfo = [
     {
       img: 'https://via.placeholder.com/150/d32776',
